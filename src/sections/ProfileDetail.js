@@ -17,7 +17,7 @@ const ProfileDetail = () => {
       <div className="max-w-4xl mx-auto md:flex md:items-end md:gap-x-8">
         <div className="flex-shrink-0">
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full md:mb-38 mt-8
-           overflow-hidden border-4 border-gray-800 dark:border-gray-200 shadow-xl ">
+           overflow-hidden border-4 border-white dark:border-gray-200 shadow-xl ">
             <Image
               src="https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/profilePic.jpg?raw=true"
               alt="profile picture"
