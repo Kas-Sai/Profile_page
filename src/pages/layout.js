@@ -1,5 +1,5 @@
 // app/layout.js
-import "@/styles/globals.css";
+// import "@/styles/globals.css";
 import ScrollToTop from "@/Components/ScrollToTop";
 
 export default function RootLayout({ children }) {
