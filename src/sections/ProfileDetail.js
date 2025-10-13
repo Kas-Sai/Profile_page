@@ -28,14 +28,14 @@ const ProfileDetail = () => {
           </div>
         </div>
         <div className="mt-6 md:mt-20 flex-grow">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900
+          <h1 className="text-3xl sm:text-4xl font-bold text-white
            dark:text-white mb-1 drop-shadow-lg
            drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] 
           sm:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] 
           md:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
             {userData.name}
           </h1>
-          <div className="text-sm text-gray-600 dark:text-gray-300 mb-4">
+          <div className="text-sm text-white dark:text-gray-300 mb-4">
             {userData.titles.map((title, index) => (
               <React.Fragment key={title}>
                 {title}
@@ -45,7 +45,7 @@ const ProfileDetail = () => {
               </React.Fragment>
             ))}
           </div>
-          <p className="text-md text-gray-700 dark:text-gray-200 mb-6 text-justify">
+          <p className="text-md text-white dark:text-gray-200 mb-6 text-justify">
             {userData.description}
           </p>
           <div className="flex space-x-4">
