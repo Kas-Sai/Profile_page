@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 
 export const dataAnalystProjects = [
@@ -131,9 +132,11 @@ const ProjectDetails = ({ project }) => {
       className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 transform hover:-translate-y-1 hover:shadow-2xl cursor-pointer"
       onClick={handleClick}
     >
-      <img
+      <Image
         src={project.imageUrl}
         alt={project.title}
+        width={1980}
+        height={1080}
         className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
       />
       <div

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState, useRef, useEffect } from 'react';
 
 const Contact = () => {
@@ -41,7 +42,12 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="hidden md:block w-48 h-48 flex-shrink-0">
-                  <img src="https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/snoopy.png?raw=true" alt="snoopy" className="object-contain pointer-events-none select-none flex item-center h-40 scale-250 relative bottom-10 right-20" />
+                  <Image 
+                  src="https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/snoopy.png?raw=true" 
+                  alt="snoopy" 
+                  width={1980}
+                  height={1080}
+                  className="object-contain pointer-events-none select-none flex item-center h-40 scale-250 relative bottom-10 right-20" />
                 </div>
             </div>
         </footer>

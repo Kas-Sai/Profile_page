@@ -1,6 +1,7 @@
 // ProfileDetail.js
 import React from 'react';
 import Button from '@/Components/Button';
+import Image from 'next/image';
 
 const ProfileDetail = () => {
   const userData = {
@@ -17,9 +18,11 @@ const ProfileDetail = () => {
         <div className="flex-shrink-0">
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full md:mb-38 mt-8
            overflow-hidden border-4 border-gray-800 dark:border-gray-200 shadow-xl ">
-            <img
+            <Image
               src="https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/profilePic.jpg?raw=true"
               alt="profile picture"
+              width={1980}
+              height={1080}
               className="w-full h-full object-cover "
             />
           </div>
