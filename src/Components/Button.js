@@ -5,8 +5,8 @@ const Button = ({ type }) => {
   const timeoutRef = useRef(null);
 
   const resumes = [
-    { name: "Data Analyst", url: "https://drive.google.com/file/d/1etRuAGBBGNyzeo4S5zkG4UDqATUVkOGg/view?usp=sharing" }, // Using placeholder URLs for preview
-    { name: "Full-Stack Developer", url: "https://drive.google.com/file/d/1FOxS7jWLoDsjU3XqgpR_BwkMdPZ2hS-L/view?usp=sharing" },
+  //  { name: "Data Analyst", url: "https://drive.google.com/file/d/1etRuAGBBGNyzeo4S5zkG4UDqATUVkOGg/view?usp=sharing" }, // Using placeholder URLs for preview
+    { name: "Resume", url: "https://drive.google.com/file/d/1FOxS7jWLoDsjU3XqgpR_BwkMdPZ2hS-L/view?usp=sharing" },
   ];
 
   const handleResumeClick = (file) => {
