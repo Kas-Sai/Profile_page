@@ -11,7 +11,7 @@ const Skills = () => {
           md:drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-12 tracking-wider text-center md:text-left">My Skills</h2>
-                <div className="mb-16">
+                <div className="mb-16 hidden">
                     <h3 className="text-2xl font-semibold mb-6 text-white">Analytic Skills</h3>
                     <div className="bg-[#474747]/20 p-8 rounded-2xl shadow-lg backdrop-blur-md">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">{analyticSkills.map((skill) => <SkillBar key={skill.name} name={skill.name} percentage={skill.percentage} />)}</div>
