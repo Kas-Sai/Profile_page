@@ -6,9 +6,9 @@ import Image from 'next/image';
 const ProfileDetail = () => {
   const userData = {
     name: "Sahil Kashyap",
-    titles: ["Data Analyst", "Full-Stack Developer", "Coder", "UI/UX Designer"],
+    titles: ["Full-Stack Developer", "Coder", "UI/UX Designer"],
     description:
-      "💻 I’m a versatile Full-Stack Developer, UI/UX Designer, and Data Analyst passionate about building user-focused, data-driven digital solutions. I create scalable web apps with React, Node.js, MongoDB, and MySQL, design clean and intuitive interfaces, and turn complex data into actionable insights using Python, SQL, Tableau and Power BI. Whether it’s coding, designing, or analyzing, I focus on delivering creative, efficient, and high-quality results.",
+      "💻 I’m a passionate Full Stack Developer and UI/UX Designer dedicated to creating seamless digital experiences that combine functionality with aesthetic appeal. With a strong focus on both front-end and back-end development, I design and build user-centric, responsive, and high-performing web applications. My goal is to bridge the gap between design and technology, delivering solutions that not only look great but also provide smooth, intuitive interactions for users.",
   };
 
   return (
