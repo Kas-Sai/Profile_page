@@ -21,7 +21,7 @@ export const fullStackProjects = [
       "This React.js landing page showcases a modern shoe brand with a sleek, responsive design.",
     imageUrl: "https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/Website%20Pages/ShoeLanding.PNG?raw=true",
     codeUrl: "https://github.com/Kas-Sai/Shoe-landing-page",
-    liveUrl: "https://arceusshoesite-git-master-kas-sais-projects.vercel.app",
+    liveUrl: "https://arceusshoesite.vercel.app/",
   },
   {
     id: "fs2",
@@ -36,10 +36,10 @@ export const fullStackProjects = [
     id: "fs3",
     title: "Portfolio Website",
     description:
-      "A personal portfolio website built with Next.js and Tailwind CSS to showcase projects.",
+      "A modern and responsive personal portfolio built using **Next.js** and **Tailwind CSS**, showcasing projects, skills, and experience with smooth animations and a clean, minimalist UI. Designed for performance, accessibility, and a seamless user experience across all devices.",
     imageUrl: "https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/Website%20Pages/portfolio.png?raw=true",
-    codeUrl: "#",
-    liveUrl: "#",
+    codeUrl: "https://github.com/Kas-Sai/Profile_page",
+    liveUrl: "https://sahil-kashyap-info.vercel.app/",
   },
   {
     id: "fs4",
@@ -67,6 +67,24 @@ export const fullStackProjects = [
     imageUrl: "https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/Website%20Pages/LegalEase.PNG?raw=true",
     codeUrl: "https://github.com/Vaibhav-cls/LegalEase",
     liveUrl: "#",
+  },
+  {
+    id: "fs7",
+    title: "Coffee Shop",
+    description:
+      "A visually appealing **Coffee Shop website** built using **HTML, CSS, and JavaScript**, featuring a warm and inviting design that highlights the menu, special offers, and café ambiance. It includes smooth animations, responsive layouts, and interactive elements to enhance user engagement and provide a delightful browsing experience.",
+    imageUrl: "https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/1.PNG?raw=true",
+    codeUrl: "https://github.com/Kas-Sai/Coffee-Shop",
+    liveUrl: "https://kas-sai.github.io/Coffee-Shop/",
+  },
+  {
+    id: "fs8",
+    title: "Inventrom Site",
+    description:
+      "This is another cloning project which was part of my internship project, HTML,CSS and Javascript is used in this webpage ",
+    imageUrl: "https://github.com/Kas-Sai/assets/blob/main/asset/protfolio/2.PNG?raw=true",
+    codeUrl: "https://github.com/Kas-Sai/Invenrom",
+    liveUrl: "https://kas-sai.github.io/Invenrom/",
   },
 ];
 
