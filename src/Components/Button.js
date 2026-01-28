@@ -6,7 +6,7 @@ const Button = ({ type }) => {
 
   const resumes = [
   //  { name: "Data Analyst", url: "https://drive.google.com/file/d/1etRuAGBBGNyzeo4S5zkG4UDqATUVkOGg/view?usp=sharing" }, // Using placeholder URLs for preview
-    { name: "Resume", url: "https://drive.google.com/file/d/1FOxS7jWLoDsjU3XqgpR_BwkMdPZ2hS-L/view?usp=sharing" },
+    { name: "Resume", url: "https://drive.google.com/file/d/1yfnWRIMq5_B2SuXlAr_cJrdtq8m_-99o/view?usp=sharing" },
   ];
 
   const handleResumeClick = (file) => {
